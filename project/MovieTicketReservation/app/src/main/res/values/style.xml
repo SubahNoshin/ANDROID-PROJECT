@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="editTextStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="hintTextColor">@color/hintColor</item>
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+    </style>
+
+</resources>

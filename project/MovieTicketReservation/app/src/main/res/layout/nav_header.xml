@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#FAC62E"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/nevimg"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BECOZ"
+        android:layout_marginLeft="70dp"
+        android:textStyle="italic"
+        android:fontFamily="casual"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movie is Fun"
+        android:fontFamily="casual"
+        android:layout_marginLeft="100dp"
+        />
+
+
+</LinearLayout>

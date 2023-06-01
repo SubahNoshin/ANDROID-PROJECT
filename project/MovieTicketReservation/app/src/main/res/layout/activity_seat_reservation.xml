@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#FAC62E">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Seat and Time"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="casual"
+        android:layout_marginBottom="15dp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Enter your Seat"
+        android:id="@+id/seat"
+        android:layout_margin="15dp"
+        android:textStyle="italic"
+        android:fontFamily="casual"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Enter your Time"
+        android:fontFamily="casual"
+        android:textStyle="italic"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:layout_margin="15dp"
+        android:id="@+id/time"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:text="Price : 300 taka only"
+        android:textStyle="italic"
+        android:fontFamily="casual"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerid"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="110dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Confirm"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:fontFamily="casual"
+        android:textSize="20dp"
+        android:id="@+id/confrim"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:fontFamily="casual"
+        android:background="@android:color/transparent"
+        android:id="@+id/status"
+        android:textSize="30dp"
+        android:layout_marginLeft="80dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="30dp"
+        android:textColor="@color/white"
+        android:background="@android:color/transparent"
+        android:id="@+id/show"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="19dp"
+        android:textColor="@color/white"
+        android:background="@android:color/transparent"
+        android:textSize="20dp"
+        android:id="@+id/showmovie"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/white"
+        android:background="@android:color/transparent"
+        android:textSize="20dp"
+        android:id="@+id/showseat"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/white"
+        android:background="@android:color/transparent"
+        android:textSize="20dp"
+        android:id="@+id/showtime"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/white"
+        android:background="@android:color/transparent"
+        android:textSize="20dp"
+        android:id="@+id/showmoney"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="POWERED BY"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/bkash" />
+
+        <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_gravity="left"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="500dp"
+        android:src="@drawable/nnagad"/>
+</LinearLayout>
+    <ImageView
+        android:layout_marginBottom="2dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/rocket"/>
+</LinearLayout>

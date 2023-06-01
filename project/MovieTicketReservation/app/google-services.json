@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "212944175915",
+    "firebase_url": "https://movie-ticket-reservation-e5530-default-rtdb.firebaseio.com",
+    "project_id": "movie-ticket-reservation-e5530",
+    "storage_bucket": "movie-ticket-reservation-e5530.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212944175915:android:3341cb4caa553ab1617b6e",
+        "android_client_info": {
+          "package_name": "com.example.movieticketreservation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212944175915-6fnj4tludq8f441ivuctecpu8hs5obb6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.movieticketreservation",
+            "certificate_hash": "e5e72d4c3c9a16de5c672a4ec74bb498c2cdf005"
+          }
+        },
+        {
+          "client_id": "212944175915-9neci1e5r7vsl0g2e0a6lp0qha9usro4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdUFu9L_Xz_px9CPhSLZKOrnBOJi3QuAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212944175915-9neci1e5r7vsl0g2e0a6lp0qha9usro4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
